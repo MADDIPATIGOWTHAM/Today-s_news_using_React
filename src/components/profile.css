@@ -1,0 +1,121 @@
+.search-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-bar input[type="search"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    flex: 1;
+  }
+  
+  .search-bar button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .search-bar button[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .search-bar i {
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 10px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .card a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  .card a:hover {
+    color: #23527c;
+  }
+  
+  .logout-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .logout-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  @media screen and (max-width: 768px) {
+   .container {
+      grid-template-columns: repeat(1, 1fr);
+    }
+   .search-bar input[type="search"] {
+      font-size: 14px;
+    }
+   .search-bar button[type="submit"] {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+   .logout-button {
+      padding: 10px 15px;
+      font-size: 14px;
+    }
+  }
+  .recommendations {
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #fff;
+  }
+  
+  .recommendations div {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .recommendations div:hover {
+    background-color: #f5f5f5;
+  }

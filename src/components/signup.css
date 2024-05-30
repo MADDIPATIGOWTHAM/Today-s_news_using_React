@@ -1,0 +1,89 @@
+.register-form {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+  }
+  
+  .button-group {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .forgot-password {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .forgot-password a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  /* Responsive styles */
+  
+  @media (max-width: 768px) {
+    .register-form {
+      margin: 20px auto;
+    }
+    .input-group {
+      margin-bottom: 15px;
+    }
+    .input-field {
+      font-size: 14px;
+    }
+    .button-group {
+      margin-top: 15px;
+    }
+    .btn {
+      padding: 8px 15px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .register-form {
+      margin: 10px auto;
+    }
+    .input-group {
+      margin-bottom: 10px;
+    }
+    .input-field {
+      font-size: 12px;
+    }
+    .button-group {
+      margin-top: 10px;
+    }
+    .btn {
+      padding: 6px12px;
+    }
+  }
