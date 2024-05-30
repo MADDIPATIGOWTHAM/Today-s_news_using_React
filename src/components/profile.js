@@ -16,7 +16,7 @@ const Dashboard = () => {
   useEffect(() => {
     const fetchNews = async () => {
       try {
-        const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=f9dcfd1a29b04d4eb70773abdf25b95d&q=${searchTerm}`);
+        const response = await fetch(`https://newsapi.org/v2/top-headlines?country=us&apiKey=YOUR_API_KEY&q=${searchTerm}`);
         const data = await response.json();
 
         if (data.status === 'ok') {
